@@ -15,7 +15,7 @@ public class CalculatorController {
     }
 
     @ExceptionHandler(DivisionByZeroException.class)
-    public ResponseEntity<?> nandleDivisionByZero(DivisionByZeroException e) {
+    public ResponseEntity<?> handleDivisionByZero(DivisionByZeroException e) {
         return ResponseEntity.badRequest().body("Делить на ноль нельзя!!!");
     }
     @GetMapping
