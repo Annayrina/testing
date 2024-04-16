@@ -1,4 +1,4 @@
-package pro.sky.testing07.Service.Service.Service.Service;
+package pro.sky.testing07.Service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

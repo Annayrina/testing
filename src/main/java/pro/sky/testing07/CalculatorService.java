@@ -1,4 +1,4 @@
-package pro.sky.testing07.Service;
+package pro.sky.testing07;
 
 import org.springframework.stereotype.Service;
 import pro.sky.testing07.Exception.DivisionByZeroException;

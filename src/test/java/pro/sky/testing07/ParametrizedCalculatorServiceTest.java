@@ -1,9 +1,9 @@
-package pro.sky.testing07.Service.Service.Service;
+package pro.sky.testing07;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import pro.sky.testing07.Service.CalculatorService;
+import pro.sky.testing07.CalculatorService;
 
 import java.util.stream.Stream;
 

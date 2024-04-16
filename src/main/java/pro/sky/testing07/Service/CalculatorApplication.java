@@ -1,4 +1,4 @@
-package pro.sky.testing07.Service.Service;
+package pro.sky.testing07.Service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

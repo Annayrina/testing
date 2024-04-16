@@ -1,16 +1,16 @@
-package pro.sky.testing07.Controller;
+package pro.sky.testing07.сontroller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pro.sky.testing07.Exception.DivisionByZeroException;
-import pro.sky.testing07.Service.CalculatorService;
+import pro.sky.testing07.CalculatorService;
 
 @RestController
 @RequestMapping("/calculator")
-public class CalculatorController {
+public class CalculatorСontroller {
     private final CalculatorService calculatorService;
 
-    public CalculatorController(CalculatorService calculatorService) {
+    public CalculatorСontroller(CalculatorService calculatorService) {
         this.calculatorService = calculatorService;
     }
 
